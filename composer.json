@@ -1,6 +1,6 @@
 {
     "name": "qiutian/alipaysdk",
-    "version": "3.0.40",
+    "version": "3.0.41",
     "description": "支付宝开放平台v3协议文档，支持最新版PHP8+",
     "keywords": [
         "openapitools",
