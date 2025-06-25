@@ -108,10 +108,10 @@ class AlipaySignature
         $result = FALSE;
         $result = (openssl_verify($data, base64_decode($sign), $res, OPENSSL_ALGO_SHA256) === 1);
 
-        if ($keyFromFile) {
-            //释放资源
-            openssl_free_key($res);
-        }
+        // if ($keyFromFile) {
+        //     //释放资源
+        //     openssl_free_key($res);
+        // }
 
         return $result;
     }
