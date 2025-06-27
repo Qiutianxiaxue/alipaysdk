@@ -86,8 +86,8 @@ class AlipayDataDataserviceBillDownloadurlApi
      */
     public function __construct(
         ?ClientInterface $client = null,
-        Configuration $config = null,
-        HeaderSelector $selector = null,
+        ?Configuration $config = null,
+        ?HeaderSelector $selector = null,
         $hostIndex = 0,
         ?AlipayConfigUtil $alipayConfigUtil = null
     ) {
